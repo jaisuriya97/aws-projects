@@ -84,3 +84,6 @@ Today, I deployed a modern **Tic Tac Toe game**—designed using **Vibe Code (AI
 ```
 ## 📸 Screenshot
 ![image](https://github.com/user-attachments/assets/43d4a836-44ed-4783-abb2-04667eda7d04)
+
+## 📟 Console
+![image](https://github.com/user-attachments/assets/e9ae32ff-8d11-48f0-a2ce-9bbee639b890)
