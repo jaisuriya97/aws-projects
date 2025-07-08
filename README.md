@@ -37,3 +37,50 @@ Today, I hosted a static website using **Amazon S3**. This marks the beginning o
 - Keep `index.html` as the default root object.
 
 ---
+
+## 📅 Day 2 Task: Deploy a Tic Tac Toe Game Using AWS CodePipeline
+
+Today, I deployed a modern **Tic Tac Toe game**—designed using **Vibe Code (AI UI builder)**—by automating the process with **AWS CodePipeline**, which pulls the code from **GitHub** and hosts it via **Amazon S3**.
+
+---
+
+## ✅ What I Did
+
+- Designed a responsive Tic Tac Toe UI using Vibe Code
+- Created a GitHub repo for the game (HTML, CSS, JS)
+- Set up AWS CodePipeline to deploy from GitHub to S3
+- Enabled S3 static website hosting and public access
+- Validated live deployment by pushing changes to GitHub
+
+---
+
+## 🛠️ Technologies Used
+
+- Vibe Code (AI UI Builder)  
+- AWS CodePipeline  
+- Amazon S3  
+- GitHub  
+- HTML/CSS/JavaScript
+
+---
+
+## 🗂️ Architecture Diagram
+
+```plaintext
+     +------------+         +------------------+         +-------------------+
+     |  Developer |  Push   |     GitHub Repo  | Trigger |   AWS CodePipeline |
+     +------------+ ------> +------------------+ ------> +-------------------+
+                                                               |
+                                                               v
+                                                  +-------------------------+
+                                                  | Amazon S3 (Web Hosting) |
+                                                  +-------------------------+
+                                                               |
+                                                               v
+                                               +----------------------------------+
+                                               |  User accesses static website   |
+                                               |  (Tic Tac Toe game) via S3 URL  |
+                                               +----------------------------------+
+```
+## 📸 Screenshot
+![image](https://github.com/user-attachments/assets/43d4a836-44ed-4783-abb2-04667eda7d04)
