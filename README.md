@@ -79,7 +79,7 @@ Today, I deployed a modern **Tic Tac Toe game**—designed using **Vibe Code (AI
                                                                v
                                                +----------------------------------+
                                                |  User accesses static website   |
-                                               |  (game) via S3 URL  |
+                                               |  (game) via S3 URL              |
                                                +----------------------------------+
 ```
 ## 📸 Screenshot
