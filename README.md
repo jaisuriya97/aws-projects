@@ -87,3 +87,49 @@ Today, I deployed a modern **Tic Tac Toe game**—designed using **Vibe Code (AI
 
 ## 📟 Console
 ![image](https://github.com/user-attachments/assets/e9ae32ff-8d11-48f0-a2ce-9bbee639b890)
+
+--- 
+## 📅 Day 3 Task: Data Virtualization using Amazon S3 + QuickSight (Netflix Dataset)
+
+Today, I explored **data virtualization** by uploading the **Netflix Movies and TV Shows dataset** (CSV format) to **Amazon S3** and visualizing it directly using **Amazon QuickSight**, without moving the data elsewhere.
+
+---
+
+## ✅ What I Did
+
+- Downloaded the Netflix dataset in CSV format from Kaggle
+- Created an Amazon S3 bucket and uploaded the CSV file
+- Granted QuickSight access to the S3 bucket
+- Connected QuickSight to the CSV in S3 via a manifest file
+- Created an interactive dashboard to explore:
+  - Top genres
+  - Country-wise distribution
+  - Content type (Movies vs. TV Shows)
+  - Year-wise content release trends
+
+---
+
+## 🗂️ Architecture Diagram
+
+```plaintext
+                   +------------------------+
+                   |     Netflix Dataset    |
+                   |    (CSV from Kaggle)   |
+                   +-----------+------------+
+                               |
+                               v
+                  +----------------------------+
+                  |   Amazon S3 (Data Lake)    |
+                  +----------------------------+
+                               |
+                               v
+           +-----------------------------------------+
+           |   Amazon QuickSight (Direct S3 Query)   |
+           +-----------------------------------------+
+                               |
+                               v
+               +-------------------------------+
+               | Interactive Dashboards & Charts|
+               +-------------------------------+
+```
+---
