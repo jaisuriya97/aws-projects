@@ -133,3 +133,5 @@ Today, I explored **data virtualization** by uploading the **Netflix Movies and 
                +-------------------------------+
 ```
 ---
+## 📸 Screenshot
+![image](https://github.com/user-attachments/assets/0413e17c-ff20-4fc2-89e5-5a7f84970d2f)
